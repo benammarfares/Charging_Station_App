@@ -1,3 +1,6 @@
+
+<a  align="center" name="readme-top"></a>
+
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
@@ -40,9 +43,7 @@
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
@@ -80,7 +81,7 @@
 
 ### Built With
 
-For database i used Oracle sql developer :<br>
+For database We used Oracle sql developer :<br>
 
 * ![Qt](https://img.shields.io/badge/Qt-%23217346.svg?style=for-the-badge&logo=Qt&logoColor=white)
 * ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white)
@@ -93,37 +94,37 @@ For database i used Oracle sql developer :<br>
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+The most important thing is that you should create the db in Oracle Sqldeveloper.
+After that ,import the .sql file from the project after cloning it.
+And for the database config just open connexion.cpp for any modification based on your requirements.
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
+Follow the youtube Video to establish the Oracle Connexion with Qt.
 
+* [Youtube Video How to setup Oracle Conection Qt](https://www.youtube.com/watch?v=E81Z5hCMCYg&t=1201s)
 
- *https://drive.google.com/file/d/1inQFrlNt02O20WLUKkXcipZpEiOygubH/view?usp=drive_link<br>
- *https://drive.google.com/file/d/12Vful6RhPNxS-lWOpdJFL1ozW5DmJmEC/view?usp=drive_link<br>
- *https://drive.google.com/file/d/1abS1tQ0mxIGWu42R1-JL-oLfciTWCVHE/view?usp=drive_link<br>
- *https://drive.google.com/file/d/1Xw_kS7YtXPdF6kPMcE337L_jNwAwYFlb/view?usp=drive_link<br>
+     *[Oracle 11](https://drive.google.com/file/d/12Vful6RhPNxS-lWOpdJFL1ozW5DmJmEC/view?usp=drive_link)<br>
+     *[Sql developer](https://drive.google.com/file/d/1inQFrlNt02O20WLUKkXcipZpEiOygubH/view?usp=drive_link)<br>
+     *[Instant Client odbc](https://drive.google.com/file/d/1abS1tQ0mxIGWu42R1-JL-oLfciTWCVHE/view?usp=drive_link)<br>
+     *[Instant Client basic](https://drive.google.com/file/d/1Xw_kS7YtXPdF6kPMcE337L_jNwAwYFlb/view?usp=drive_link)<br>
 
 
 ### Installation
-
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
 
 1. Clone the repo
    ```sh
    git clone https://github.com/benammarfares/Charging_Station_App.git
    ```
-2. Install Oracle environment
- * https://drive.google.com/file/d/12Vful6RhPNxS-lWOpdJFL1ozW5DmJmEC/view?usp=drive_link<br>
+2. Install Oracle environment & watch the youtube video for more instructions about configurations.
+ * [Oracle 11](https://drive.google.com/file/d/12Vful6RhPNxS-lWOpdJFL1ozW5DmJmEC/view?usp=drive_link)<br>
  
-3.Install Sql developer
- * https://drive.google.com/file/d/1inQFrlNt02O20WLUKkXcipZpEiOygubH/view?usp=drive_link<br>
+3. Install Sql developer & watch the youtube video for more instructions about configurations.
+ * [Sql developer](https://drive.google.com/file/d/1inQFrlNt02O20WLUKkXcipZpEiOygubH/view?usp=drive_link)<br>
 
-4.Install Odbc Configuration
- * https://drive.google.com/file/d/1abS1tQ0mxIGWu42R1-JL-oLfciTWCVHE/view?usp=drive_link<br>
- * https://drive.google.com/file/d/1Xw_kS7YtXPdF6kPMcE337L_jNwAwYFlb/view?usp=drive_link<br>
+4. Install Odbc Configuration<br>
+ * [Instant Client odbc](https://drive.google.com/file/d/1abS1tQ0mxIGWu42R1-JL-oLfciTWCVHE/view?usp=drive_link)<br>
+ * [Instant Client basic](https://drive.google.com/file/d/1Xw_kS7YtXPdF6kPMcE337L_jNwAwYFlb/view?usp=drive_link)<br>
    
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -132,13 +133,68 @@ _Below is an example of how you can instruct your audience on installing and set
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+1. At first open integration.pro.
+   
+![cap1](https://github.com/benammarfares/Charging_Station_App/assets/99650831/07bcc8b1-a558-4532-918a-29f0d9c0306e)
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+2. Second open connexion.cpp and change the username and mdp same as the one you connect with to your sql developer Bd.
+   
+![cap2](https://github.com/benammarfares/Charging_Station_App/assets/99650831/900a8776-309e-49cb-bfc5-6dce21ee5908)
+    
+3. Third Step click on execute button.
+
+![cap3](https://github.com/benammarfares/Charging_Station_App/assets/99650831/fcc6cc2a-0d1b-45a2-bbd8-fa37541e5569)
+    
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
+<!-- CONTRIBUTING -->
+## Contributing
+
+Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
+Don't forget to give the project a star! Thanks again!
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+<!-- CONTACT -->
+## Contact
+
+ <a href="https://www.linkedin.com/in/fares-ben-ammar-14b8b3226/">
+                <img alt="LinkedIn" title="Discord" src="https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white"/></a> 
+    <a href="https://www.instagram.com/fares.ben.ammar/?hl=fr">
+                <img alt="Instagram" title="Instagram" src="https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=Instagram&logoColor=white"/></a>
+        <a href="https://discord.gg/farou1747">
+                    <img alt="Discord" title="Discord" src="https://img.shields.io/badge/Discord-%235865F2.svg?style=for-the-badge&logo=discord&logoColor=white"/></a> 
+            <a href="https://facebook.com/https://www.facebook.com/faroutiti.benammar/">
+                    <img alt="Facebook" title="Facebook" src="https://img.shields.io/badge/Facebook-%231877F2.svg?style=for-the-badge&logo=Facebook&logoColor=white"/></a> 
+    <a href="mailto:benammar.Fares@esprit.tn">
+    <img alt="Outlook" title="Outlook" src="https://img.shields.io/badge/Microsoft_Outlook-0078D4?style=for-the-badge&logo=microsoft-outlook&logoColor=white"/>
+
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+<!-- ACKNOWLEDGMENTS -->
+## Acknowledgments
+
+Important to who will start from scratch !!!! :)
+
+* [Youtube Video How to setup Oracle Conection Qt](https://www.youtube.com/watch?v=E81Z5hCMCYg&t=1201s)
+* [Git Operations](https://drive.google.com/file/d/108UbY6Nzs83a4eAT98fKQeBSKKNvyANo/view?usp=drive_link)
+* [Urls for Qt Starting tutorials](https://drive.google.com/file/d/1-qULdcW115N1C3EVpoL2eL9nRYnWPR1K/view?usp=drive_link)
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
