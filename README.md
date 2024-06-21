@@ -94,7 +94,7 @@ For database We used Oracle sql developer :<br>
 <!-- GETTING STARTED -->
 ## Getting Started
 
-❗❗❗ Important !!!
+❗❗❗ Important !!! <br>
  *After cloning you must change the export.sql , don't worry it's a simple modification. (Just change FARES1 with your ODBC Client Username, this Username also should be the one for your DB ,for more informations watch the video i linked it covers all the configuration parts 😉)
 The most important thing is that you should create the db in Oracle Sqldeveloper (also in the video 😅).
 And for the database config just open connexion.cpp for any modification based on your requirements.
