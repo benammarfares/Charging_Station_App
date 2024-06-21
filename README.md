@@ -9,7 +9,7 @@
   <p align="center">
       Chargi is a Desktop Application for 'Electric Station management' .
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/benammarfares/Charging_Station_App"><strong>Explore the docs »</strong></a>
     <br />
     <br />
     <a href="https://github.com/benammarfares/Charging_Station_App">View Demo</a>
@@ -70,7 +70,11 @@ Use the `BLANK_README.md` to get started.
 
 ### Built With
 
-This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
+For database i used Oracle sql developer :<br>
+ -https://drive.google.com/file/d/1inQFrlNt02O20WLUKkXcipZpEiOygubH/view?usp=drive_link<br>
+ -https://drive.google.com/file/d/12Vful6RhPNxS-lWOpdJFL1ozW5DmJmEC/view?usp=drive_link<br>
+ -https://drive.google.com/file/d/1abS1tQ0mxIGWu42R1-JL-oLfciTWCVHE/view?usp=drive_link<br>
+ -https://drive.google.com/file/d/1Xw_kS7YtXPdF6kPMcE337L_jNwAwYFlb/view?usp=drive_link<br>
 
 * ![Qt](https://img.shields.io/badge/Qt-%23217346.svg?style=for-the-badge&logo=Qt&logoColor=white)
 * ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white)
