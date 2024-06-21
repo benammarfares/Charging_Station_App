@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>login</class>
+ <widget class="QDialog" name="login">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1115</width>
+    <height>565</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QLabel" name="label_16">
+   <property name="geometry">
+    <rect>
+     <x>720</x>
+     <y>330</y>
+     <width>16</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>../../Downloads/nhnhnhn.jpg</pixmap>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_login">
+   <property name="geometry">
+    <rect>
+     <x>550</x>
+     <y>400</y>
+     <width>93</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {   font-family: 'Montserrat', sans-serif;   font-size: 10px;   color: #fff;   background-color: #023020;   border-radius: 10px;   padding: 20px;   text-shadow: 2px 2px #333;   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3); }
+</string>
+   </property>
+   <property name="text">
+    <string>LOGIN</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_14">
+   <property name="geometry">
+    <rect>
+     <x>320</x>
+     <y>330</y>
+     <width>111</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel {   font-family: 'Montserrat', sans-serif;   font-size: 10px;   color: #fff;   background-color: #5F585F;     padding: 20px;   text-shadow: 2px 2px #333;   box-shadow: 5px 5px 10px rgba(0, 0, 0, 1); }
+
+</string>
+   </property>
+   <property name="text">
+    <string>Mot de passe</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>520</x>
+     <y>440</y>
+     <width>151</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {   font-family: 'Montserrat', sans-serif;   font-size: 10px;   color: #fff;   background-color: #023020;   border-radius: 10px;   padding: 20px;   text-shadow: 2px 2px #333;   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3); }
+</string>
+   </property>
+   <property name="text">
+    <string>Mot de passe oubliée !</string>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="textEdit">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>80</y>
+     <width>281</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QTextEdit {
+	font: 10pt &quot;MS Shell Dlg 2&quot;;
+    background-color: #023020;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 14px;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    padding: 5px;
+}</string>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+   <property name="html">
+    <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Arial'; font-size:14px; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'MS Shell Dlg 2'; font-size:8pt;&quot;&gt;Bienvenue sur l'application CHARGI ! &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'MS Shell Dlg 2'; font-size:8pt;&quot;&gt;Connectez-vous pour accéder à vos informations personnelles et effectuer des tâches administratives en toute simplicité.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_mdplogin">
+   <property name="geometry">
+    <rect>
+     <x>490</x>
+     <y>330</y>
+     <width>201</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLineEdit {   font-family: 'Montserrat', sans-serif;   font-size: 10px;   color: #fff;   background-color: #023020;       text-shadow: 2px 2px #333;   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3); }
+</string>
+   </property>
+   <property name="echoMode">
+    <enum>QLineEdit::Password</enum>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_13">
+   <property name="geometry">
+    <rect>
+     <x>320</x>
+     <y>280</y>
+     <width>111</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel {   font-family: 'Montserrat', sans-serif;   font-size: 10px;   color: #fff;   background-color: #5F585F;     padding: 20px;   text-shadow: 2px 2px #333;   box-shadow: 5px 5px 10px rgba(0, 0, 0, 1); }
+
+</string>
+   </property>
+   <property name="text">
+    <string>CIN</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_cinlogin">
+   <property name="geometry">
+    <rect>
+     <x>490</x>
+     <y>280</y>
+     <width>201</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLineEdit {   font-family: 'Montserrat', sans-serif;   font-size: 10px;   color: #fff;   background-color: #023020;       text-shadow: 2px 2px #333;   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3); }
+</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>-10</y>
+     <width>1121</width>
+     <height>797</height>
+    </rect>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>1121</width>
+     <height>16777215</height>
+    </size>
+   </property>
+   <property name="mouseTracking">
+    <bool>false</bool>
+   </property>
+   <property name="autoFillBackground">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>INTERFACE.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+   <property name="wordWrap">
+    <bool>true</bool>
+   </property>
+   <property name="openExternalLinks">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <zorder>label</zorder>
+  <zorder>label_16</zorder>
+  <zorder>pushButton_login</zorder>
+  <zorder>label_14</zorder>
+  <zorder>pushButton</zorder>
+  <zorder>textEdit</zorder>
+  <zorder>lineEdit_mdplogin</zorder>
+  <zorder>label_13</zorder>
+  <zorder>lineEdit_cinlogin</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
